@@ -19,14 +19,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>vcard-release</id>
       <name>vcard-release</name>
-      <url>http://ec2-13-233-53-15.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/vcard-release/</url>
+      <url>http://ip-172-31-10-165.ap-south-1.compute.internal:8081/nexus/content/repositories/vcard-release/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>vcard-snapshot</id>
       <name>vcard-snapshot</name>
-      <url>http://ec2-13-233-53-15.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/vcard-snapshot/</url>
+      <url>http://ip-172-31-10-165.ap-south-1.compute.internal:8081/nexus/content/repositories/vcard-snapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
